@@ -14,14 +14,27 @@
 ## Install
 
 ```sh
-yarn install
+yarn install @beeeku/cookieplus
 ```
 
-## Run tests
+### Importing library
 
-```sh
-yarn run test
+```javascript
+import { getCookie, setCookie, removeCookie, clearCookie } from 'mylib';
 ```
+
+### Usage
+
+```javascript
+const times = parseInt(getCookie('times'), 10) || 0;
+setCookie('times', times + 1);
+removeCookie('times');
+clearCookie();
+```
+
+## Demo
+
+[CodeSandbox](https://sr9bxv.csb.app/)
 
 ## Author
 
