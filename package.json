@@ -16,6 +16,11 @@
     "import": "./dist/index.mjs"
   },
   "types": "./dist/index.d.ts",
+  "author": "Bikash Dash <beeeku@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/beeeku/cookieplus"
+  },
   "scripts": {
     "build-fast": "tsup --format cjs,esm",
     "build": "yarn run build-fast  --dts-resolve",

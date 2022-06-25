@@ -14,13 +14,14 @@
 ## Install
 
 ```sh
-yarn install @beeeku/cookieplus
+npm install @beeeku/cookieplus
+yarn add @beeeku/cookieplus
 ```
 
 ### Importing library
 
 ```javascript
-import { getCookie, setCookie, removeCookie, clearCookie } from 'mylib';
+import { getCookie, setCookie, removeCookie, clearCookie } from '@beeeku/cookieplus';
 ```
 
 ### Usage
@@ -35,6 +36,24 @@ clearCookie();
 ## Demo
 
 [CodeSandbox](https://sr9bxv.csb.app/)
+
+## API
+
+## getCookie(key)
+
+Return the cookie value for `key`.
+
+## setCookie(key, value, opts={})
+
+Set the cookie at `key` to `value` with optional parameters `expires` and `path`.`.
+
+## removeCookie(key)
+
+Removes cookie value stored at `key`.`.
+
+## clearCookie()
+
+Removes all currently available cookies.
 
 ## Author
 
