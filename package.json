@@ -20,7 +20,7 @@
     "build-fast": "tsup --format cjs,esm",
     "build": "yarn run build-fast  --dts-resolve",
     "prepublishOnly": "yarn run build",
-    "release": "yarn run format && yarn run build && yarn t && git commit -am \"$npm_package_version\" && git tag $npm_package_version && git push && git push --tags && yarn publish",
+    "release": "yarn run format && yarn run build  && git commit -am \"$npm_package_version\" && git tag $npm_package_version && git push && git push --tags && yarn publish",
     "format": "prettier --write './**/*.{js,json,yml,md,ts}'",
     "format:check": "prettier --check './**/*.{js,json,yml,md,ts}'"
   },
