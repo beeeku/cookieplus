@@ -1,35 +1,37 @@
-**💛 You can help the author become a full-time open-source maintainer by [sponsoring him on GitHub](https://github.com/sponsors/egoist).**
+<h1 align="center">Welcome to cookieplus 👋</h1>
+<p>
+  <img alt="Version" src="https://img.shields.io/badge/version-0.0.1-blue.svg?cacheSeconds=2592000" />
+  <a href="#" target="_blank">
+    <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg" />
+  </a>
+  <a href="https://twitter.com/beeeku" target="_blank">
+    <img alt="Twitter: beeeku" src="https://img.shields.io/twitter/follow/beeeku.svg?style=social" />
+  </a>
+</p>
 
----
-
-# my-ts-lib
-
-[![npm version](https://badgen.net/npm/v/my-ts-lib)](https://npm.im/my-ts-lib) [![npm downloads](https://badgen.net/npm/dm/my-ts-lib)](https://npm.im/my-ts-lib)
-
-## Using this template
-
-- Search `my-ts-lib` and replace it with your custom package name.
-- Search `egoist` and replace it with your name.
-
-Features:
-
-- Package manager [pnpm](https://pnpm.js.org/), safe and fast
-- Release with [semantic-release](https://npm.im/semantic-release)
-- Bundle with [tsup](https://github.com/egoist/tsup)
-- Test with [vitest](https://vitest.dev)
-
-To skip CI (GitHub action), add `skip-ci` to commit message. To skip release, add `skip-release` to commit message.
+> Nicer way to manage your cookies
 
 ## Install
 
-```bash
-npm i my-ts-lib
+```sh
+yarn install
 ```
 
-## Sponsors
+## Run tests
 
-[![sponsors](https://sponsors-images.egoist.sh/sponsors.svg)](https://github.com/sponsors/egoist)
+```sh
+yarn run test
+```
 
-## License
+## Author
 
-MIT &copy; [EGOIST](https://github.com/sponsors/egoist)
+👤 **Bikash Dash**
+
+- Website: https://bika.sh
+- Twitter: [@beeeku](https://twitter.com/beeeku)
+- Github: [@beeeku](https://github.com/beeeku)
+- LinkedIn: [@beeeku](https://linkedin.com/in/beeeku)
+
+## Show your support
+
+Give a ⭐️ if this project helped you!

@@ -1,7 +1,11 @@
 {
   "compilerOptions": {
-    "target": "es2020",
-    "module": "esnext",
+    "target": "ESNext",
+    "module": "ESNext",
+    "lib": [
+      "DOM",
+      "ESNext"
+    ],
     "strict": true,
     "esModuleInterop": true,
     "moduleResolution": "node",
@@ -12,5 +16,9 @@
     "noEmit": true,
     "outDir": "dist",
     "resolveJsonModule": true
-  }
+  },
+  "exclude": [
+    "node_modules",
+    "dist"
+  ]
 }
