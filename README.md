@@ -10,7 +10,6 @@
 </p>
 
 > Nicer way to manage your cookies
-
 ## Install
 
 ```sh
@@ -55,8 +54,10 @@ Removes cookie value stored at `key`.`.
 
 Removes all currently available cookies.
 
-## Author
+## Inspiration 
+> Implemented with typescript from https://github.com/substack/cookie-cutter
 
+## Author
 👤 **Bikash Dash**
 
 - Website: https://bika.sh
